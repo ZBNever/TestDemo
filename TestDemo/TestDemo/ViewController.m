@@ -23,6 +23,8 @@
     lab.backgroundColor = [UIColor greenColor];
     [self.view addSubview:lab];
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
