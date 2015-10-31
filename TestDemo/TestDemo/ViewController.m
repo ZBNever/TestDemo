@@ -22,12 +22,11 @@
     lab.text = @"这是一个测试Label";
     lab.backgroundColor = [UIColor greenColor];
     [self.view addSubview:lab];
-<<<<<<< HEAD
+
     NSLog(@"test2");
-=======
+
   NSLog(@"test");
-    
->>>>>>> 894ab8655e34f85c468cda7d96836bc317ff4f69
+
 }
 
 - (void)didReceiveMemoryWarning {
