@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AC98861C-5EC8-4A36-84E5-DC0880D4571B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TestDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4590DF4B84F86C01A1FD65DB3A06132E658EFC6B</key>
 		<string>https://github.com/ZBNever/TestDemo</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TestDemo/TestDemo.xcodeproj/project.xcworkspace</string>
+	<string>TestDemo/TestDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4590DF4B84F86C01A1FD65DB3A06132E658EFC6B</key>
