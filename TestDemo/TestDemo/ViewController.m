@@ -22,6 +22,7 @@
     lab.text = @"这是一个测试Label";
     lab.backgroundColor = [UIColor greenColor];
     [self.view addSubview:lab];
+  NSLog(@"test");
     
 }
 
