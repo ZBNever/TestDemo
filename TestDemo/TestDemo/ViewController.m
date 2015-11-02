@@ -39,6 +39,10 @@
     btn.backgroundColor = [UIColor redColor];
     [self.view addSubview:btn];
     
+<<<<<<< HEAD
+=======
+    [btn setTitle:@"按钮修改名字" forState:UIControlStateNormal];
+>>>>>>> a7cffb8c549da5dd059a7f1bcddb10e698ac8275
 }
 
 - (void)didReceiveMemoryWarning {
