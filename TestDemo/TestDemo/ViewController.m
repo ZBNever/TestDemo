@@ -32,6 +32,8 @@
     [btn setTitle:@"新建一个按钮" forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:btn];
+    
+    [btn setTitle:@"按钮修改名字" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
