@@ -27,11 +27,18 @@
 
     NSLog(@"test");
     
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    btn.frame = CGRectMake(30, 60, 200, 50);
+//    [btn setTitle:@"新建一个按钮" forState:UIControlStateNormal];
+//    btn.backgroundColor = [UIColor cyanColor];
+//    [self.view addSubview:btn];
+    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(30, 60, 200, 50);
-    [btn setTitle:@"新建一个按钮" forState:UIControlStateNormal];
-    btn.backgroundColor = [UIColor cyanColor];
+    btn.frame = CGRectMake(60, 60, 260, 70);
+    [btn setTitle:@"新建按钮" forState:UIControlStateNormal];
+    btn.backgroundColor = [UIColor redColor];
     [self.view addSubview:btn];
+    
 }
 
 - (void)didReceiveMemoryWarning {
