@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1cc0661f-8833-46ad-abfd-913cd94298b0++5326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "1cc0661f-8833-46ad-abfd-913cd94298b0++5326" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4590DF4B84F86C01A1FD65DB3A06132E658EFC6B" : 0,
+    "1cc0661f-8833-46ad-abfd-913cd94298b0++5326" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E7A5C66E-178E-4E48-8E61-420B7E19003F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4590DF4B84F86C01A1FD65DB3A06132E658EFC6B" : "",
+    "1cc0661f-8833-46ad-abfd-913cd94298b0++5326" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "yjstest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "test\/yjstest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.88\/yh",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1cc0661f-8833-46ad-abfd-913cd94298b0++5326"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZBNever\/TestDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4590DF4B84F86C01A1FD65DB3A06132E658EFC6B"
+    }
+  ]
+}

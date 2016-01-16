@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD08A821BF4383200723269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD08A811BF4383200723269 /* main.m */; };
+		CAD08A851BF4383200723269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD08A841BF4383200723269 /* AppDelegate.m */; };
+		CAD08A881BF4383200723269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD08A871BF4383200723269 /* ViewController.m */; };
+		CAD08A8B1BF4383200723269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD08A891BF4383200723269 /* Main.storyboard */; };
+		CAD08A8D1BF4383200723269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD08A8C1BF4383200723269 /* Assets.xcassets */; };
+		CAD08A901BF4383200723269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD08A8E1BF4383200723269 /* LaunchScreen.storyboard */; };
+		CAD08A9B1BF4383200723269 /* TableViewCell_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD08A9A1BF4383200723269 /* TableViewCell_______Tests.m */; };
+		CAD08AA61BF4383200723269 /* TableViewCell_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD08AA51BF4383200723269 /* TableViewCell_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD08A971BF4383200723269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD08A751BF4383200723269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD08A7C1BF4383200723269;
+			remoteInfo = "TableViewCell高度自适应测试";
+		};
+		CAD08AA21BF4383200723269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD08A751BF4383200723269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD08A7C1BF4383200723269;
+			remoteInfo = "TableViewCell高度自适应测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD08A7D1BF4383200723269 /* TableViewCell高度自适应测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewCell高度自适应测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD08A811BF4383200723269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD08A831BF4383200723269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAD08A841BF4383200723269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAD08A861BF4383200723269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAD08A871BF4383200723269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAD08A8A1BF4383200723269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD08A8C1BF4383200723269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD08A8F1BF4383200723269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD08A911BF4383200723269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD08A961BF4383200723269 /* TableViewCell高度自适应测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCell高度自适应测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD08A9A1BF4383200723269 /* TableViewCell_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableViewCell_______Tests.m"; sourceTree = "<group>"; };
+		CAD08A9C1BF4383200723269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD08AA11BF4383200723269 /* TableViewCell高度自适应测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCell高度自适应测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD08AA51BF4383200723269 /* TableViewCell_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableViewCell_______UITests.m"; sourceTree = "<group>"; };
+		CAD08AA71BF4383200723269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD08A7A1BF4383200723269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08A931BF4383200723269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08A9E1BF4383200723269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD08A741BF4383200723269 = {
+			isa = PBXGroup;
+			children = (
+				CAD08A7F1BF4383200723269 /* TableViewCell高度自适应测试 */,
+				CAD08A991BF4383200723269 /* TableViewCell高度自适应测试Tests */,
+				CAD08AA41BF4383200723269 /* TableViewCell高度自适应测试UITests */,
+				CAD08A7E1BF4383200723269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD08A7E1BF4383200723269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD08A7D1BF4383200723269 /* TableViewCell高度自适应测试.app */,
+				CAD08A961BF4383200723269 /* TableViewCell高度自适应测试Tests.xctest */,
+				CAD08AA11BF4383200723269 /* TableViewCell高度自适应测试UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD08A7F1BF4383200723269 /* TableViewCell高度自适应测试 */ = {
+			isa = PBXGroup;
+			children = (
+				CAD08A831BF4383200723269 /* AppDelegate.h */,
+				CAD08A841BF4383200723269 /* AppDelegate.m */,
+				CAD08A861BF4383200723269 /* ViewController.h */,
+				CAD08A871BF4383200723269 /* ViewController.m */,
+				CAD08A891BF4383200723269 /* Main.storyboard */,
+				CAD08A8C1BF4383200723269 /* Assets.xcassets */,
+				CAD08A8E1BF4383200723269 /* LaunchScreen.storyboard */,
+				CAD08A911BF4383200723269 /* Info.plist */,
+				CAD08A801BF4383200723269 /* Supporting Files */,
+			);
+			path = "TableViewCell高度自适应测试";
+			sourceTree = "<group>";
+		};
+		CAD08A801BF4383200723269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD08A811BF4383200723269 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD08A991BF4383200723269 /* TableViewCell高度自适应测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD08A9A1BF4383200723269 /* TableViewCell_______Tests.m */,
+				CAD08A9C1BF4383200723269 /* Info.plist */,
+			);
+			path = "TableViewCell高度自适应测试Tests";
+			sourceTree = "<group>";
+		};
+		CAD08AA41BF4383200723269 /* TableViewCell高度自适应测试UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD08AA51BF4383200723269 /* TableViewCell_______UITests.m */,
+				CAD08AA71BF4383200723269 /* Info.plist */,
+			);
+			path = "TableViewCell高度自适应测试UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD08A7C1BF4383200723269 /* TableViewCell高度自适应测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD08AAA1BF4383200723269 /* Build configuration list for PBXNativeTarget "TableViewCell高度自适应测试" */;
+			buildPhases = (
+				CAD08A791BF4383200723269 /* Sources */,
+				CAD08A7A1BF4383200723269 /* Frameworks */,
+				CAD08A7B1BF4383200723269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewCell高度自适应测试";
+			productName = "TableViewCell高度自适应测试";
+			productReference = CAD08A7D1BF4383200723269 /* TableViewCell高度自适应测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD08A951BF4383200723269 /* TableViewCell高度自适应测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD08AAD1BF4383200723269 /* Build configuration list for PBXNativeTarget "TableViewCell高度自适应测试Tests" */;
+			buildPhases = (
+				CAD08A921BF4383200723269 /* Sources */,
+				CAD08A931BF4383200723269 /* Frameworks */,
+				CAD08A941BF4383200723269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD08A981BF4383200723269 /* PBXTargetDependency */,
+			);
+			name = "TableViewCell高度自适应测试Tests";
+			productName = "TableViewCell高度自适应测试Tests";
+			productReference = CAD08A961BF4383200723269 /* TableViewCell高度自适应测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD08AA01BF4383200723269 /* TableViewCell高度自适应测试UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD08AB01BF4383200723269 /* Build configuration list for PBXNativeTarget "TableViewCell高度自适应测试UITests" */;
+			buildPhases = (
+				CAD08A9D1BF4383200723269 /* Sources */,
+				CAD08A9E1BF4383200723269 /* Frameworks */,
+				CAD08A9F1BF4383200723269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD08AA31BF4383200723269 /* PBXTargetDependency */,
+			);
+			name = "TableViewCell高度自适应测试UITests";
+			productName = "TableViewCell高度自适应测试UITests";
+			productReference = CAD08AA11BF4383200723269 /* TableViewCell高度自适应测试UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD08A751BF4383200723269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yoohooo;
+				TargetAttributes = {
+					CAD08A7C1BF4383200723269 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CAD08A951BF4383200723269 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CAD08A7C1BF4383200723269;
+					};
+					CAD08AA01BF4383200723269 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CAD08A7C1BF4383200723269;
+					};
+				};
+			};
+			buildConfigurationList = CAD08A781BF4383200723269 /* Build configuration list for PBXProject "TableViewCell高度自适应测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD08A741BF4383200723269;
+			productRefGroup = CAD08A7E1BF4383200723269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD08A7C1BF4383200723269 /* TableViewCell高度自适应测试 */,
+				CAD08A951BF4383200723269 /* TableViewCell高度自适应测试Tests */,
+				CAD08AA01BF4383200723269 /* TableViewCell高度自适应测试UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD08A7B1BF4383200723269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD08A901BF4383200723269 /* LaunchScreen.storyboard in Resources */,
+				CAD08A8D1BF4383200723269 /* Assets.xcassets in Resources */,
+				CAD08A8B1BF4383200723269 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08A941BF4383200723269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08A9F1BF4383200723269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD08A791BF4383200723269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD08A881BF4383200723269 /* ViewController.m in Sources */,
+				CAD08A851BF4383200723269 /* AppDelegate.m in Sources */,
+				CAD08A821BF4383200723269 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08A921BF4383200723269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD08A9B1BF4383200723269 /* TableViewCell_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD08A9D1BF4383200723269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD08AA61BF4383200723269 /* TableViewCell_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD08A981BF4383200723269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD08A7C1BF4383200723269 /* TableViewCell高度自适应测试 */;
+			targetProxy = CAD08A971BF4383200723269 /* PBXContainerItemProxy */;
+		};
+		CAD08AA31BF4383200723269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD08A7C1BF4383200723269 /* TableViewCell高度自适应测试 */;
+			targetProxy = CAD08AA21BF4383200723269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD08A891BF4383200723269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD08A8A1BF4383200723269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD08A8E1BF4383200723269 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD08A8F1BF4383200723269 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD08AA81BF4383200723269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD08AA91BF4383200723269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD08AAB1BF4383200723269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewCell高度自适应测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoohooo.TableViewCell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAD08AAC1BF4383200723269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewCell高度自适应测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoohooo.TableViewCell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAD08AAE1BF4383200723269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableViewCell高度自适应测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoohooo.TableViewCell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell高度自适应测试.app/TableViewCell高度自适应测试";
+			};
+			name = Debug;
+		};
+		CAD08AAF1BF4383200723269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableViewCell高度自适应测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoohooo.TableViewCell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell高度自适应测试.app/TableViewCell高度自适应测试";
+			};
+			name = Release;
+		};
+		CAD08AB11BF4383200723269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewCell高度自适应测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoohooo.TableViewCell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableViewCell高度自适应测试";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAD08AB21BF4383200723269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewCell高度自适应测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoohooo.TableViewCell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableViewCell高度自适应测试";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD08A781BF4383200723269 /* Build configuration list for PBXProject "TableViewCell高度自适应测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08AA81BF4383200723269 /* Debug */,
+				CAD08AA91BF4383200723269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD08AAA1BF4383200723269 /* Build configuration list for PBXNativeTarget "TableViewCell高度自适应测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08AAB1BF4383200723269 /* Debug */,
+				CAD08AAC1BF4383200723269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD08AAD1BF4383200723269 /* Build configuration list for PBXNativeTarget "TableViewCell高度自适应测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08AAE1BF4383200723269 /* Debug */,
+				CAD08AAF1BF4383200723269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD08AB01BF4383200723269 /* Build configuration list for PBXNativeTarget "TableViewCell高度自适应测试UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD08AB11BF4383200723269 /* Debug */,
+				CAD08AB21BF4383200723269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD08A751BF4383200723269 /* Project object */;
+}
