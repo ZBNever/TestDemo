@@ -43,7 +43,7 @@
     }
     NSString *lab = @"测试cell";
     cell.textLabel.text = lab;
-    CGSize textSize = [lab sizeWithFont:<#(UIFont *)#> minFontSize:<#(CGFloat)#> actualFontSize:<#(CGFloat *)#> forWidth:<#(CGFloat)#> lineBreakMode:<#(NSLineBreakMode)#>]
+//    CGSize textSize = [lab sizeWithFont:<#(UIFont *)#> minFontSize:<#(CGFloat)#> actualFontSize:<#(CGFloat *)#> forWidth:<#(CGFloat)#> lineBreakMode:<#(NSLineBreakMode)#>]
     
     return cell;
     
@@ -56,6 +56,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
     NSLog(@"修改1");
+    
+    
+    NSLog(@"修改2");
 }
 
 @end
